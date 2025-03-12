@@ -1,6 +1,5 @@
 import time
 import numpy as np
-import pyautogui
 import ctypes
 import mss
 from PIL import Image, ImageChops
