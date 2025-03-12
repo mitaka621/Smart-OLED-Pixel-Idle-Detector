@@ -14,10 +14,8 @@
     </ul>   
     <h2>📦 Requirements</h2>
     <p>Ensure you have the following installed:</p>
-    <pre>
-    pip install pyautogui pillow numpy
-    pip install mss pillow numpy
-    </pre>    
+    <pre>    pip install pyautogui pillow numpy
+    pip install mss pillow numpy</pre>    
     <h2>🛠️ Installation & Usage</h2>
     <ol>
         <li>Clone this repository:</li>
@@ -32,11 +30,9 @@
         <li>Press <code>Win + R</code> and type <code>shell:startup</code>, then press <code>Enter</code>.</li>
         <li>Copy the full path of <code>oled_saver.py</code>.</li>
         <li>Create a new text file and add the following:</li>
-      <pre>
-        @echo off
+        <pre>        @echo off
         start /min pythonw "C:\path\to\main.py"
-        exit
-      </pre>
+        exit</pre>
         <li>Save the file as <code>oled_saver.bat</code> and place it in the Startup folder.</li>
         <li>Restart your computer, and it will run automatically!</li>
     </ol>    
