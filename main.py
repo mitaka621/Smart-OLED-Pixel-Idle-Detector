@@ -5,7 +5,7 @@ import ctypes
 from PIL import ImageChops
 
 CHECK_INTERVAL = 2  # The check interval in seconds
-INACTIVITY_THRESHOLD = 5  # The time in seconds of screen inactivity before turning off the monitor
+INACTIVITY_THRESHOLD = 30  # The time in seconds of screen inactivity before turning off the monitor
 
 def turn_off_monitor():
     ctypes.windll.user32.PostMessageW(0xFFFF, 0x0112, 0xF170, 2)
